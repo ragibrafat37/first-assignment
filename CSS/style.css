@@ -55,7 +55,7 @@ nav{
     padding-right: 60px;
     padding-bottom: 600px;
     padding-top: 20px;
-    position: right;
+   
 }
 .banner-button{
     background-color: #006A50;
@@ -67,13 +67,6 @@ nav{
 }
 .dark-2{
     color: #474747;
-}
-
-.banner-title{
-   
-}
-.pillars{
-   
 }
 /*vision styles  */
 .container{
@@ -142,10 +135,10 @@ nav{
     padding: 56px 48px;
 }
 .NS{
- display: flex;
- margin:20px 160px;
- background-color: whitesmoke;
- border-radius: 16px; 
+    display: flex;
+    margin:20px 160px;
+    background-color: whitesmoke;
+    border-radius: 16px; 
 
  
 }
@@ -171,16 +164,20 @@ nav{
     font-weight: bold;
    font-size: 32px;
 }
-.money-item{
+.money-item {
    justify-content: space-around;
     display: flex;
     gap: 24px;
+    
 }
-.taka{
+.money-item :hover{
     background-color: #C6E4D6;
 }
+
+.taka{
+}    
 .btn-donation{
-    padding: 20px 400px;
+    padding: 20px 380px;
    margin-top: 20px;
     
 }
@@ -203,6 +200,30 @@ nav{
 
 .newsletter{
     background-color:#C6E4D6;
-    justify-content: center;
-    align-items: center;
+    
+    margin:80px 160px;
+    padding: 80px 265px;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1880px;
 }
+.email-btn{
+    padding: 18px 400px 18px 40px;
+
+}
+.subscribe-ctn{
+    display:flex ;
+    border-radius: 8px 0 0 8px;
+    align-items: center;
+  justify-content: center;
+  align-items: center;
+    
+}
+.subs-btn{
+    background-color: #006A50;
+    padding: 19px 26px;
+    border: none;
+
+}
+
