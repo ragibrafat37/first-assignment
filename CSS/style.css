@@ -37,22 +37,25 @@ nav{
     padding-top: 117px;
     border-radius: 24px;
     justify-content: space-between;
-    max-width: 1080px;
+    max-width: 1880px;
+    max-height: 500px;
+    margin-top: 20px;
 }
 .banner-content{
     width: 1280px;
   justify-content: center;
   max-width: 80%;
-  font-size:larger;
+  font-size:30px
  
 }
 .banner-profile-picture{
     width: 474px;
     height: 400px;
-    text-align: right;
+    text-align: center;
     padding-right: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 600px;
     padding-top: 20px;
+    position: right;
 }
 .banner-button{
     background-color: #006A50;
@@ -68,4 +71,138 @@ nav{
 
 .banner-title{
    
+}
+.pillars{
+   
+}
+/*vision styles  */
+.container{
+    display:flex;
+    gap: 24px;
+    
+    justify-content: space-between;
+    padding: 0 160px;
+}
+.vision-headline{
+    padding: 0 160px;
+}
+.vision-1{
+    background-color: #505A6B;
+    padding: 30px;
+    border-radius: 16px;
+    
+
+}
+.vision-2{
+    background-color:#5490F5 ;
+    padding: 30px;
+    border-radius: 16px;
+}
+.vision-3{
+    background-color: #F7EBCF;
+    padding: 30px;
+    border-radius: 16px;
+}
+.learn-1{
+    background-color:#5490F5 ;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+}
+.learn-2{
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+}
+.learn-3{
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+}
+.quote{
+    padding: 24px 48px;
+    background-color:whitesmoke;
+    margin: 32px 160px;
+    border-radius: 8px;
+}
+.quote-img{
+    display: block;
+    position: absolute;
+}
+.author{
+    margin-bottom: 0;
+}
+.author-title{
+    margin-top: 0;
+}
+/* News styles */
+.news-1{
+    padding: 56px 48px;
+}
+.NS{
+ display: flex;
+ margin:20px 160px;
+ background-color: whitesmoke;
+ border-radius: 16px; 
+
+ 
+}
+.satelite-image{
+    height: 300px;
+    width: 400px;
+    padding: 48px;
+    border-radius:24px;
+}
+.btn-news{
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+}
+.donation{
+    text-align: center;
+}
+.money{
+
+   padding: 40px;
+    border-radius: 16px;
+    font-weight: bold;
+   font-size: 32px;
+}
+.money-item{
+   justify-content: space-around;
+    display: flex;
+    gap: 24px;
+}
+.taka{
+    background-color: #C6E4D6;
+}
+.btn-donation{
+    padding: 20px 400px;
+   margin-top: 20px;
+    
+}
+.btn-submit{
+    padding: 13px 26px;
+    background-color: #006A50;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+}
+.ctn{
+    
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+}
+.media{
+    gap: 10px;
+}
+
+.newsletter{
+    background-color:#C6E4D6;
+    justify-content: center;
+    align-items: center;
 }
